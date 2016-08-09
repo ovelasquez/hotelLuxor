@@ -1,0 +1,1669 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Booking Calendar\n"
+"POT-Creation-Date: 2016-07-10 13:50+0200\n"
+"PO-Revision-Date: 2016-07-10 14:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: advanced-booking-calendar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: advanced-booking-calendar.php:144
+msgid "Your details"
+msgstr "Deine Details"
+
+#: advanced-booking-calendar.php:145
+msgid "Hi [abc_first_name]!"
+msgstr "Hallo [abc_first_name]!"
+
+#: advanced-booking-calendar.php:146
+#, php-format
+msgid "Your %s-Team"
+msgstr "Dein %s-Team"
+
+#: advanced-booking-calendar.php:147 frontend/bookingform.php:390
+msgid "Room type"
+msgstr "Raumtyp"
+
+#: advanced-booking-calendar.php:148
+msgid "Room price"
+msgstr "Zimmerpreis"
+
+#: advanced-booking-calendar.php:149
+msgid "Selected extras"
+msgstr "Ausgewählte Zusatzleistungen"
+
+#: advanced-booking-calendar.php:150 backend/bookings.php:1160
+#: frontend/bookingform.php:292 frontend/bookingform.php:310
+msgid "Additional costs"
+msgstr "Zusätzliche Kosten"
+
+#: advanced-booking-calendar.php:151 backend/bookings.php:186
+#: backend/bookings.php:817 backend/bookings.php:1165
+#: frontend/bookingform.php:171 frontend/singlecalendar.php:331
+msgid "Total price"
+msgstr "Gesamtpreis"
+
+#: advanced-booking-calendar.php:152
+msgid "Checkin - Checkout"
+msgstr "Anreise - Abreise"
+
+#: advanced-booking-calendar.php:153
+msgid "Number of guests"
+msgstr "Gästeanzahl"
+
+#: advanced-booking-calendar.php:154
+msgid "Full Name"
+msgstr "Name"
+
+#: advanced-booking-calendar.php:155 backend/bookings.php:136
+#: backend/settings.php:269
+msgid "Email"
+msgstr "E-Mail"
+
+#: advanced-booking-calendar.php:156 backend/bookings.php:136
+msgid "Phone"
+msgstr "Telefon"
+
+#: advanced-booking-calendar.php:157 backend/bookings.php:137
+msgid "Address"
+msgstr "Adresse"
+
+#: advanced-booking-calendar.php:158
+msgid "Your message to us"
+msgstr "Deine Nachricht an uns"
+
+#: advanced-booking-calendar.php:159
+#, php-format
+msgid "Your booking at %s"
+msgstr "Deine Buchung bei %s"
+
+#: advanced-booking-calendar.php:162
+#, php-format
+msgid ""
+"Thank you for booking at %s. Your booking has not yet been confirmed. Please "
+"wait for an additional confirmation email."
+msgstr ""
+"Vielen Dank für deine Buchung bei %s. Deine Buchung ist noch nicht "
+"bestätigt. Bitte warte auf eine weitere Bestätigungs-E-Mail."
+
+#: advanced-booking-calendar.php:166
+#, php-format
+msgid "Confirming your booking at %s"
+msgstr "Bestätigung deiner Buchung bei %s"
+
+#: advanced-booking-calendar.php:169
+msgid "We are happy to confirm your booking!"
+msgstr "Wir freuen uns deine Buchung zu bestätigen!"
+
+#: advanced-booking-calendar.php:171
+msgid "If you have any questions regard your stay, feel free to contact us."
+msgstr "Zögere nicht, dich bei weiteren Fragen bei uns zu melden."
+
+#: advanced-booking-calendar.php:174
+#, php-format
+msgid "Canceling your booking at %s"
+msgstr "Ablehnung deiner Buchung bei %s"
+
+#: advanced-booking-calendar.php:177
+msgid ""
+"We are very sorry to cancel your booking! We already had another reservation "
+"for your requested travel period."
+msgstr ""
+"Leider müssen wir deine Buchung ablehnen. Wir hatten bereits eine andere "
+"Buchung in deinem Reisezeitraum."
+
+#: advanced-booking-calendar.php:178 advanced-booking-calendar.php:185
+#, php-format
+msgid ""
+"Please check our website at %s for an alternative. We would be very happy to "
+"welcome you any time soon."
+msgstr ""
+"Bitte suche auf unserer Webseite unter %s nach einer Alternative. Wir würden "
+"uns sehr freuen, dich zu einer anderen Zeit bei uns begrüßen zu dürfen."
+
+#: advanced-booking-calendar.php:181
+#, php-format
+msgid "Rejecting your booking at %s"
+msgstr "Stornierung deiner Buchung bei %s"
+
+#: advanced-booking-calendar.php:184
+msgid ""
+"We are very sorry to reject your booking! We already had another reservation "
+"for your requested travel period."
+msgstr ""
+"Leider müssen wir deine Buchung stornieren! Wir hatten bereits eine andere "
+"Buchung in deinem Reisezeitraum."
+
+#: advanced-booking-calendar.php:266 advanced-booking-calendar.php:267
+#: backend/bookings.php:1101
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: advanced-booking-calendar.php:274 advanced-booking-calendar.php:275
+#: backend/bookings.php:1022 backend/seasons-calendars.php:663
+msgid "Seasons & Calendars"
+msgstr "Saisons & Kalender"
+
+#: advanced-booking-calendar.php:282 advanced-booking-calendar.php:283
+#: backend/bookings.php:138 backend/bookings.php:185 backend/bookings.php:1155
+#: backend/extras.php:125
+msgid "Extras"
+msgstr "Zusatzleistungen"
+
+#: advanced-booking-calendar.php:290 advanced-booking-calendar.php:291
+#: backend/analytics.php:14
+msgid "Analytics"
+msgstr "Analytics"
+
+#: advanced-booking-calendar.php:298 advanced-booking-calendar.php:299
+#: backend/settings.php:256
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: backend/analytics.php:41
+msgid "There are currently no calendars."
+msgstr "Es gibt noch keine Kalender."
+
+#: backend/analytics.php:43
+msgid "Please create a calendar first."
+msgstr "Bitte legen zuerst einen Kalender an."
+
+#: backend/analytics.php:86
+#, php-format
+msgid "Overall Occupation Rate for the next %d days"
+msgstr "Gesamte Belegungsrate für die nächsten %d Tage"
+
+#: backend/analytics.php:96
+#, php-format
+msgid "Occupation Rate of each calendar for the next %d days"
+msgstr "Belegungsrate für die einzelnen Kalender der nächsten %d Tage"
+
+#: backend/analytics.php:132
+#, php-format
+msgid "Number of requests for the next %d days"
+msgstr "Anzahl der Anfragen der nächsten %d Tage"
+
+#: backend/analytics.php:167
+#, php-format
+msgid "Percentage per person for the next %d days"
+msgstr "Anteil der Personenanzahl der nächsten %d Tage"
+
+#: backend/analytics.php:207
+#, php-format
+msgid "Average revenue per calendar for the next %d days"
+msgstr "Durchschnittsumsatz pro Kalender der nächsten %d Tage"
+
+#: backend/bookings.php:132 frontend/bookingform.php:85
+#: frontend/bookingform.php:388 frontend/singlecalendar.php:325 widget.php:110
+msgid "Checkin"
+msgstr "Anreise"
+
+#: backend/bookings.php:133 frontend/bookingform.php:90
+#: frontend/bookingform.php:389 frontend/singlecalendar.php:326 widget.php:115
+msgid "Checkout"
+msgstr "Abreise"
+
+#: backend/bookings.php:134 backend/bookings.php:1120
+#: backend/seasons-calendars.php:598 backend/seasons-calendars.php:926
+#: backend/seasons-calendars.php:940
+msgid "Calendar"
+msgstr "Kalender"
+
+#: backend/bookings.php:134
+msgid "Room"
+msgstr "Zimmer"
+
+#: backend/bookings.php:135 backend/extras.php:179 backend/extras.php:282
+#: backend/extras.php:298 backend/seasons-calendars.php:462
+#: backend/seasons-calendars.php:527 backend/seasons-calendars.php:731
+#: backend/seasons-calendars.php:750 backend/seasons-calendars.php:827
+#: backend/seasons-calendars.php:841
+msgid "Name"
+msgstr "Name"
+
+#: backend/bookings.php:138 backend/extras.php:209 backend/extras.php:286
+#: backend/extras.php:328 backend/seasons-calendars.php:532
+#: backend/seasons-calendars.php:828 backend/seasons-calendars.php:846
+msgid "Price"
+msgstr "Preis"
+
+#: backend/bookings.php:139 backend/bookings.php:187 backend/bookings.php:818
+#: frontend/bookingform.php:376
+msgid "Message"
+msgstr "Nachricht"
+
+#: backend/bookings.php:166
+msgid "No extras"
+msgstr "Keine Zusatzleistungen"
+
+#: backend/bookings.php:173 backend/bookings.php:182 backend/bookings.php:814
+#: functions.php:482
+msgid "Booking Request"
+msgstr "Buchungsanfrage"
+
+#: backend/bookings.php:192 backend/bookings.php:214 backend/bookings.php:223
+#: backend/bookings.php:823 backend/bookings.php:838 backend/bookings.php:847
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: backend/bookings.php:192 backend/bookings.php:823
+msgid "Do you really want to confirm this booking?"
+msgstr "Möchtest du diese Buchung wirklich bestätigen?"
+
+#: backend/bookings.php:195 backend/bookings.php:826
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: backend/bookings.php:195 backend/bookings.php:826
+msgid "Do you really want to reject this booking?"
+msgstr "Möchtest du diese Buchung wirklich ablehnen?"
+
+#: backend/bookings.php:205
+msgid "Change room"
+msgstr "Zimmer ändern"
+
+#: backend/bookings.php:208 backend/bookings.php:832
+msgctxt "a booking"
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: backend/bookings.php:208 backend/bookings.php:832
+msgid "Do you really want to cancel this booking?"
+msgstr "Möchtest du diese Buchung wirklich stornieren?"
+
+#: backend/bookings.php:214 backend/bookings.php:838
+msgid ""
+"Do you really want to confirm this booking (it has already been canceled)?"
+msgstr ""
+"Möchtest du diese Buchung wirklich bestätigen? Sie war bereits storniert."
+
+#: backend/bookings.php:217 backend/bookings.php:226 backend/bookings.php:841
+#: backend/bookings.php:850 backend/extras.php:274
+#: backend/seasons-calendars.php:715 backend/seasons-calendars.php:817
+#: backend/seasons-calendars.php:916
+msgid "Delete"
+msgstr "Löschen"
+
+#: backend/bookings.php:217 backend/bookings.php:226 backend/bookings.php:841
+#: backend/bookings.php:850
+msgid "Do you really want to delete this booking?"
+msgstr "Möchtest du diese Buchung wirklich löschen?"
+
+#: backend/bookings.php:223 backend/bookings.php:847
+msgid ""
+"Do you really want to confirm this booking (it has already been rejected)?"
+msgstr ""
+"Möchtest du diese Buchung wirklich bestätigen? Sie war bereits abgelehnt."
+
+#: backend/bookings.php:233 backend/bookings.php:857
+msgid "Scroll up"
+msgstr "Nach oben"
+
+#: backend/bookings.php:260
+msgid "No Bookings found."
+msgstr "Keine Buchungen gefunden"
+
+#: backend/bookings.php:268
+msgid "Select..."
+msgstr "Wähle aus..."
+
+#: backend/bookings.php:316
+msgid "Calendar is available."
+msgstr "Kalender ist verfügbar."
+
+#: backend/bookings.php:317
+msgid "Room price for the stay"
+msgstr "Zimmerpreis für den Aufenthalt"
+
+#: backend/bookings.php:319
+msgid ""
+"There is an overlap in the bookings. Check if you can move other bookings to "
+"other rooms. The booking can only be saved as \"open\""
+msgstr ""
+"Es gibt eine Überschneidung bei den Buchung. Prüfe, ob du die Buchungen auf "
+"andere Zimmer verlegen kannst. Diese Buchung kann nur als \"offen\" "
+"gespeichert werden"
+
+#: backend/bookings.php:322
+msgid "No rooms available for this calendar during the selected time period"
+msgstr "Keine freien Zimmer für diesen Kalender in diesem Zeitraum"
+
+#: backend/bookings.php:325 frontend/bookingform.php:199
+msgid "Something went wrong."
+msgstr "Es ist etwas schief gelaufen."
+
+#: backend/bookings.php:479
+msgid "Change room for a booking"
+msgstr "Zimmer für eine Buchung wächseln"
+
+#: backend/bookings.php:487
+msgid "Booking"
+msgstr "Buchung"
+
+#: backend/bookings.php:488 backend/bookings.php:647 backend/bookings.php:653
+#: backend/bookings.php:683 backend/bookings.php:691 functions.php:272
+#: functions.php:297
+#, php-format
+msgid "%d person"
+msgid_plural "%d persons"
+msgstr[0] "%d Person"
+msgstr[1] "%d Personen"
+
+#: backend/bookings.php:492
+msgid "state"
+msgstr "Status"
+
+#: backend/bookings.php:493 backend/settings.php:452
+msgid "message"
+msgstr "Nachricht"
+
+#: backend/bookings.php:497
+msgid "Available rooms"
+msgstr "Verfügbare Zimmer"
+
+#: backend/bookings.php:499
+msgid "Room changes will not affect any price changes!"
+msgstr "Zimmerwechsel haben keinen Einfluss auf den Preis!"
+
+#: backend/bookings.php:503 backend/extras.php:215
+#: backend/seasons-calendars.php:502 backend/seasons-calendars.php:543
+#: backend/seasons-calendars.php:616 backend/seasons-calendars.php:654
+#: backend/settings.php:363 backend/settings.php:462 backend/settings.php:527
+msgid "Save"
+msgstr "Speichern"
+
+#: backend/bookings.php:504 backend/extras.php:216
+#: backend/seasons-calendars.php:503 backend/seasons-calendars.php:544
+#: backend/seasons-calendars.php:617 backend/seasons-calendars.php:655
+msgctxt "a change"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: backend/bookings.php:567
+msgid "January"
+msgstr "Januar"
+
+#: backend/bookings.php:568
+msgid "February"
+msgstr "Februar"
+
+#: backend/bookings.php:569
+msgid "March"
+msgstr "März"
+
+#: backend/bookings.php:570
+msgid "April"
+msgstr "April"
+
+#: backend/bookings.php:571
+msgid "May"
+msgstr "Mai"
+
+#: backend/bookings.php:572
+msgid "June"
+msgstr "Juni"
+
+#: backend/bookings.php:573
+msgid "July"
+msgstr "Juli"
+
+#: backend/bookings.php:574
+msgid "August"
+msgstr "August"
+
+#: backend/bookings.php:575
+msgid "September"
+msgstr "September"
+
+#: backend/bookings.php:576
+msgid "October"
+msgstr "Oktober"
+
+#: backend/bookings.php:577
+msgid "November"
+msgstr "November"
+
+#: backend/bookings.php:578
+msgid "December"
+msgstr "Dezember"
+
+#: backend/bookings.php:763
+msgid "Thank you for your Feedback!"
+msgstr "Vielen Dank für dein Feedback!"
+
+#: backend/bookings.php:777
+msgid "Thank you! The link is now activated."
+msgstr "Danke! Der Link ist jetzt aktiviert."
+
+#: backend/bookings.php:788
+msgid "Search not set."
+msgstr "Suche nicht eingestellt."
+
+#: backend/bookings.php:886
+msgid "Congratulations on your 10th confirmed Booking!"
+msgstr "Herzlichen Glückwunsch zu deiner 10. bestätigten Buchung!"
+
+#: backend/bookings.php:887
+msgid ""
+"We would like to give your more tips on how to raise your occupation rate "
+"via our Newsletter. We promise to never spam you. You can unsubscribe "
+"anytime."
+msgstr ""
+"Wir würden dir gerne weitere Tips zur Steigerung deiner Belegungsrate über "
+"unseren Newsletter schicken. Wir verpsrechen dir keinen Spam zu schicken. Du "
+"kannst dich jederzeit abmelden."
+
+#: backend/bookings.php:888 backend/bookings.php:895 backend/bookings.php:902
+msgid "Click OK to subscribe now!"
+msgstr "Klicke auf Ok um dich jetzt anzumelden!"
+
+#: backend/bookings.php:893
+msgid "Wow! Congratulations on your 100th confirmed Booking!"
+msgstr "Wow! Herzlichen Glückwunsch zu deiner 100. bestätigten Buchung!"
+
+#: backend/bookings.php:894 backend/bookings.php:901
+msgid ""
+"You are obviously doing a great job! But still, maybe you could learn "
+"something by our tips on how to raise your occupation rate via our "
+"Newsletter. We promise to never spam you. You can unsubscribe anytime."
+msgstr ""
+"Du bist offensichtlich ein Profi! Vielleicht kannst du doch noch etwas aus "
+"unseren Tips zur Steigerung der Buchungsrate lernen, die wir dir per "
+"Newsletter schicken wollen. Wir verpsrechen dir keinen Spam zu schicken. Du "
+"kannst dich jederzeit abmelden."
+
+#: backend/bookings.php:900
+#, php-format
+msgid "Congratulations! You just surpassed a total revenue of 20000 %s!"
+msgstr ""
+"Herzlichen Glückwunsch! Du hast soeben die Umsatzmarke von 20.000 %s "
+"überschritten!"
+
+#: backend/bookings.php:912
+msgid "Do you like this Plugin?"
+msgstr "Gefällt dir dieses Plugin?"
+
+#: backend/bookings.php:918
+msgid "Oh, we are sorry!"
+msgstr "Schade, das tut uns leid!"
+
+#: backend/bookings.php:919
+msgid "Would you tell us what you don't like?"
+msgstr "Würde du uns mitteilen, was dir nicht gefällt?"
+
+#: backend/bookings.php:922
+msgid "Send Feedback"
+msgstr "Feedback abschicken"
+
+#: backend/bookings.php:926
+msgid "Great!"
+msgstr "Super!"
+
+#: backend/bookings.php:927
+msgid "We would really appreciate a review:"
+msgstr "Wir freuen uns sehr über deine Bewertung:"
+
+#: backend/bookings.php:931
+msgid ""
+"You can also help us by activating a tiny \"Power by Advanced Booking "
+"Calendar\"-notice below the calendar overview. It would help us a lot!"
+msgstr ""
+"Du hilfst uns auch sehr, wenn du den winzigen \"Erstellt mit Advanced "
+"Booking Calendar\"-Hinweis unterhalb der Kalenderübersicht aktiviert. Das "
+"hilft uns wirklich sehr!"
+
+#: backend/bookings.php:933
+msgid "Activate Powered-By-Link"
+msgstr "Erstellt-mit-Link aktivieren"
+
+#: backend/bookings.php:978
+msgid "Booking has been saved. Has yet to be confirmed."
+msgstr "Buchung gespeichert. Diese muss aber noch bestätigt werden."
+
+#: backend/bookings.php:979 backend/bookings.php:984 backend/bookings.php:989
+#: backend/bookings.php:994 backend/bookings.php:999 backend/bookings.php:1004
+#: backend/bookings.php:1009 backend/bookings.php:1014 backend/extras.php:103
+#: backend/extras.php:108 backend/extras.php:115 backend/extras.php:120
+#: backend/seasons-calendars.php:385 backend/seasons-calendars.php:399
+#: backend/seasons-calendars.php:404 backend/seasons-calendars.php:409
+#: backend/seasons-calendars.php:414 backend/seasons-calendars.php:419
+#: backend/seasons-calendars.php:424 backend/seasons-calendars.php:429
+#: backend/seasons-calendars.php:434 backend/seasons-calendars.php:439
+#: backend/settings.php:239 backend/settings.php:244 backend/settings.php:249
+msgid "Dismiss this notice."
+msgstr "Schließen"
+
+#: backend/bookings.php:983
+msgid "Booking has been saved and state set to confirmed."
+msgstr "Buchung gespeichert und den Status auf \"bestätigt\" gesetzt."
+
+#: backend/bookings.php:988
+msgid "Booking confirmed."
+msgstr "Buchung bestätigt."
+
+#: backend/bookings.php:993
+msgid "Booking canceled."
+msgstr "Buchung abgelehnt."
+
+#: backend/bookings.php:998
+msgid "Booking rejected."
+msgstr "Buchung storniert."
+
+#: backend/bookings.php:1003
+msgid "Booking deleted."
+msgstr "Buchuns gelöscht."
+
+#: backend/bookings.php:1008
+msgid "Something went wrong, change didn't work."
+msgstr "Etwas lief schief, Änderung nicht durchgeführt."
+
+#: backend/bookings.php:1013
+msgid "Room has been changed."
+msgstr "Zimmerwechsel gespeichert."
+
+#: backend/bookings.php:1021
+msgid "setup guide"
+msgstr "Erstanleitung"
+
+#: backend/bookings.php:1023 backend/bookings.php:1081
+#: backend/bookings.php:1109
+msgid "Create a Booking"
+msgstr "Buchung erstellen"
+
+#: backend/bookings.php:1029 backend/bookings.php:1040
+msgid "Create a Calendar"
+msgstr "Kalender erstellen"
+
+#: backend/bookings.php:1041
+#, php-format
+msgid ""
+"A calendar is one room or even a group of rooms of the same room type. Start "
+"by adding a calendar here: \"%s\""
+msgstr ""
+"Ein Kalender ist ein Zimmer oder sogar eine Gruppe von Zimmern der gleichen "
+"Zimmerart. Fange an, in dem du einen Kalender anlegst: \"%s\""
+
+#: backend/bookings.php:1050 backend/bookings.php:1061
+msgid "Create a Season & assign it to a Calendar"
+msgstr "Erstelle eine Saison und weise sie einem Kalender zu"
+
+#: backend/bookings.php:1062
+#, php-format
+msgid ""
+"With seasons you can create differnt rates for different time periods. Go to "
+"\"%s\" and add a season and assign it to a calendar."
+msgstr ""
+"Mit Saisons kannst du unterschiedliche Preise für unterschiedliche Zeiträume "
+"anlegen. Gehe zu \"%s\", lege eine Saison an und weise sie einem Kalender zu."
+
+#: backend/bookings.php:1069
+#, php-format
+msgid "There are currently no bookings. Check out our %s to get started."
+msgstr "Es gibt noch keine Buchungen. Schau dir unsere %s an, um loszulegen."
+
+#: backend/bookings.php:1070
+msgid "If you have a question, feel free to contact us:"
+msgstr "Falls du fragen hast, wende dich gerne direkt an uns:"
+
+#: backend/bookings.php:1071
+msgid "Contact Support"
+msgstr "Kontakt"
+
+#: backend/bookings.php:1082
+msgid ""
+"When everything is set up, add shortcodes to your WordPress pages and wait "
+"for the first guest."
+msgstr ""
+"Wenn alles eingerichtet ist, kannst du die Shortcodes in deine WordPress-"
+"Seiten einfügen und auf den ersten Gast warten."
+
+#: backend/bookings.php:1083
+#, php-format
+msgid "You can also click on \"%s\" and add your first Booking manually."
+msgstr ""
+"Du kannst deine erste Buchung auch durch einen Klick auf \"%s\" anlegen."
+
+#: backend/bookings.php:1106
+msgid "Open Bookings"
+msgstr "Offene Buchungen"
+
+#: backend/bookings.php:1107
+msgid "Confirmed Bookings"
+msgstr "Bestätigte Buchungen"
+
+#: backend/bookings.php:1108
+msgid "Rejected & canceled Bookings"
+msgstr "Abgelehnte & stornierte Buchungen"
+
+#: backend/bookings.php:1110 backend/bookings.php:1251
+msgid "Search"
+msgstr "Suche"
+
+#: backend/bookings.php:1126 frontend/bookingform.php:97 widget.php:120
+msgid "Persons"
+msgstr "Personen"
+
+#: backend/bookings.php:1128
+msgid "Set calendar"
+msgstr "Kalender auswählen"
+
+#: backend/bookings.php:1132
+msgid "Checkin Date"
+msgstr "Anreise Datum"
+
+#: backend/bookings.php:1141
+msgid "Checkout Date"
+msgstr "Abreise Datum"
+
+#: backend/bookings.php:1150
+msgid "State"
+msgstr "Status"
+
+#: backend/bookings.php:1170
+msgid "Set Booking State to"
+msgstr "Buchungsstatus setzen auf"
+
+#: backend/bookings.php:1172
+msgid "Open (has to be confirmed)"
+msgstr "Offen (muss noch bestätigt werden)"
+
+#: backend/bookings.php:1173
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: backend/bookings.php:1177 backend/settings.php:372
+#: frontend/bookingform.php:324
+msgid "First Name"
+msgstr "Vorname"
+
+#: backend/bookings.php:1183 backend/settings.php:382
+#: frontend/bookingform.php:330
+msgid "Last Name"
+msgstr "Nachname"
+
+#: backend/bookings.php:1189 frontend/bookingform.php:335
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: backend/bookings.php:1195
+msgid "Send confirmation email to guest"
+msgstr "Bestätigungs-E-Mail an Gast schicken"
+
+#: backend/bookings.php:1197 backend/extras.php:204 backend/extras.php:233
+#: backend/extras.php:323
+msgid "Yes"
+msgstr "Ja"
+
+#: backend/bookings.php:1198 backend/extras.php:205 backend/extras.php:236
+#: backend/extras.php:324
+msgid "No"
+msgstr "Nein"
+
+#: backend/bookings.php:1202 backend/settings.php:392
+#: frontend/bookingform.php:340
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: backend/bookings.php:1208 backend/settings.php:402
+#: frontend/bookingform.php:346
+msgid "Street Address, House no."
+msgstr "Straße und Hausnr."
+
+#: backend/bookings.php:1214 backend/settings.php:412
+#: frontend/bookingform.php:352
+msgid "ZIP Code"
+msgstr "Postleitzahl"
+
+#: backend/bookings.php:1220 backend/settings.php:432
+#: frontend/bookingform.php:358
+msgid "City"
+msgstr "Stadt"
+
+#: backend/bookings.php:1226 backend/settings.php:422
+#: frontend/bookingform.php:364
+msgid "State / County"
+msgstr "Bundesland"
+
+#: backend/bookings.php:1232 backend/settings.php:442
+#: frontend/bookingform.php:370
+msgid "Country"
+msgstr "Land"
+
+#: backend/bookings.php:1238
+msgid "Message, special note for stay"
+msgstr "Nachricht, Hinweis zum Aufenthalt"
+
+#: backend/bookings.php:1244
+msgid "Create Booking"
+msgstr "Buchung anlegen"
+
+#: backend/bookings.php:1250
+msgid "search"
+msgstr "suchen"
+
+#: backend/extras.php:102
+msgid ""
+"Extras are limited to 2 in the free version! If you need more extras, please "
+"download our <a href=\"https://booking-calendar-plugin.com/pro-download/\" "
+"target=\"_blank\">Pro-Version</a>."
+msgstr ""
+"Zusatzleistungen sind in der kostenlosen Version auf 2 begrenzt! Wenn du "
+"mehr benötigst, lade dir die  <a href=\"https://booking-calendar-plugin.com/"
+"pro-download/\" target=\"_blank\">Pro-Version</a> herunter."
+
+#: backend/extras.php:107 backend/extras.php:112
+msgid "Extra has been added."
+msgstr "Zusatzleistung wurde hinzugefügt."
+
+#: backend/extras.php:113
+msgid "Make sure to add the placeholdes for extras in your email settings"
+msgstr "Bitte passe auch die Platzhalter in den E-Mail Einstellungen an."
+
+#: backend/extras.php:114 backend/settings.php:262
+msgid "Email Settings"
+msgstr "E-Mail-Einstellungen"
+
+#: backend/extras.php:119 backend/seasons-calendars.php:389
+msgid "Change has been saved."
+msgstr "Anpassung wurde gespeichert."
+
+#: backend/extras.php:172
+msgid "Edit an Extra"
+msgstr "Leistung bearbeiten"
+
+#: backend/extras.php:181 backend/extras.php:300
+msgid "The name will be shown in the booking form."
+msgstr "Der Name wird im Buchungsformular angezeigt."
+
+#: backend/extras.php:184 backend/extras.php:283 backend/extras.php:303
+msgid "Explanation"
+msgstr "Beschreibung"
+
+#: backend/extras.php:184 backend/extras.php:303
+#: backend/seasons-calendars.php:497 backend/seasons-calendars.php:785
+msgid "(optional)"
+msgstr "(optional)"
+
+#: backend/extras.php:186 backend/extras.php:305
+msgid "Explain what the extra is for."
+msgstr "Beschreibe, worin die zusätzliche Leistung besteht."
+
+#: backend/extras.php:189 backend/extras.php:284 backend/extras.php:308
+msgid "Type of calculation"
+msgstr "Art der Berechnung"
+
+#: backend/extras.php:192 backend/extras.php:242 backend/extras.php:311
+msgid "per night"
+msgstr "pro Nacht"
+
+#: backend/extras.php:193 backend/extras.php:245 backend/extras.php:312
+msgid "per day"
+msgstr "pro Tag"
+
+#: backend/extras.php:194 backend/extras.php:248 backend/extras.php:313
+msgid "once (no matter how many persons)"
+msgstr "einmalig (unabhängig von der Personenanzahl)"
+
+#: backend/extras.php:195 backend/extras.php:251 backend/extras.php:314
+msgid "per person (once)"
+msgstr "pro Person (einmalig)"
+
+#: backend/extras.php:196 backend/extras.php:254 backend/extras.php:315
+msgid "per person per night"
+msgstr "pro Person und Nacht"
+
+#: backend/extras.php:197 backend/extras.php:257 backend/extras.php:316
+msgid "per person per day"
+msgstr "pro Person und Tag"
+
+#: backend/extras.php:199 backend/extras.php:318
+msgid "Define how the price of the extra is getting charged."
+msgstr "Definiere, wie der Aufpreis berechnet wird."
+
+#: backend/extras.php:202 backend/extras.php:321
+msgid "Mandatory extra"
+msgstr "Pflichtleistung"
+
+#: backend/extras.php:206 backend/extras.php:325
+msgid ""
+"You can make an extra mandatory, so every guest has to pay for it (eg. final "
+"cleaning)."
+msgstr ""
+"Eine Zusatzleistung kann verpflichtend sein, so dass Gäste immer dafür "
+"zahlen müssen (z.B. Endreinigung)."
+
+#: backend/extras.php:211 backend/extras.php:330
+msgid "Enter the price you want to charge for the extra."
+msgstr "Gib den  Preis der Zusatzleistung ein."
+
+#: backend/extras.php:270 backend/seasons-calendars.php:711
+#: backend/seasons-calendars.php:813 backend/seasons-calendars.php:912
+#: frontend/bookingform.php:110
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: backend/extras.php:274
+msgid "Do you really want to delete this extra?"
+msgstr "Möchtest du diese Zusatzleistung wirklich löschen?"
+
+#: backend/extras.php:279
+msgid "Existing Extras"
+msgstr "Bestehende Leistungen"
+
+#: backend/extras.php:285
+msgid "Mandatory"
+msgstr "Verpflichtend"
+
+#: backend/extras.php:292
+msgid "Add new Extra"
+msgstr "Leistung hinzufügen"
+
+#: backend/extras.php:299
+msgid "Wifi"
+msgstr "WLAN"
+
+#: backend/extras.php:334
+msgid "Add Extra"
+msgstr "Leistung hinzufügen"
+
+#: backend/seasons-calendars.php:384
+msgid ""
+"Number of rooms is limited to 15 rooms! If you need more rooms, please "
+"download our <a href=\"https://booking-calendar-plugin.com/pro-download/\" "
+"target=\"_blank\">Pro-Version</a>."
+msgstr ""
+"Anzahl der Zimmer ist auf 15 begrenzt! Für weitere Zimmer bitte unsere <a "
+"href=\"https://booking-calendar-plugin.com/pro-download/\" target=\"_blank"
+"\">Pro-Version</a> herunterladen."
+
+#: backend/seasons-calendars.php:393
+msgid "Rooms could not be deleted. There are still active bookings."
+msgstr "Zimmer konnten nicht gelöscht werden. Es gibt noch aktive Buchungen."
+
+#: backend/seasons-calendars.php:395
+#, php-format
+msgid "Rooms reduced to %s rooms"
+msgstr "Zimmer auf %s reduziert"
+
+#: backend/seasons-calendars.php:403
+msgid "Season has been added."
+msgstr "Saison wurde hinzugefügt."
+
+#: backend/seasons-calendars.php:408
+msgid "Calendar has been deleted."
+msgstr "Kalender wurde gelöscht."
+
+#: backend/seasons-calendars.php:413
+msgid "Calendar was not deleted. There still exist bookings in this calendar."
+msgstr ""
+"Kalender wurde nicht gelöscht. Es existieren noch Buchungen in diesem "
+"Kalender."
+
+#: backend/seasons-calendars.php:418
+msgid "Calendar has been added."
+msgstr "Kalender wurde hinzugefügt."
+
+#: backend/seasons-calendars.php:423
+msgid "Season has been deleted."
+msgstr "Saison wurde gelöscht."
+
+#: backend/seasons-calendars.php:428
+msgid "Room names have been saved."
+msgstr "Zimmernamen wurden gespeichert."
+
+#: backend/seasons-calendars.php:433
+msgid "Season assignment has been added."
+msgstr "Zuordnung der Saison wurde gespeichert."
+
+#: backend/seasons-calendars.php:438
+msgid "Season assignment has been deleted."
+msgstr "Verknüpfung wurde gelöscht."
+
+#: backend/seasons-calendars.php:455
+msgid "Edit existing Calendar"
+msgstr "Bestehenden Kalender bearbeiten"
+
+#: backend/seasons-calendars.php:463 backend/seasons-calendars.php:528
+#: backend/seasons-calendars.php:751
+msgid "Room Type A"
+msgstr "Zimmertyp A"
+
+#: backend/seasons-calendars.php:464 backend/seasons-calendars.php:529
+#: backend/seasons-calendars.php:752 backend/seasons-calendars.php:843
+msgid "Please choose a meaningful title."
+msgstr "Bitte wähle einen nachvollziehbaren Namen"
+
+#: backend/seasons-calendars.php:467 backend/seasons-calendars.php:732
+#: backend/seasons-calendars.php:755
+msgid "Number of rooms"
+msgstr "Anzahl der Zimmer"
+
+#: backend/seasons-calendars.php:469 backend/seasons-calendars.php:757
+msgid "eg. max. 10 Rooms available"
+msgstr "z.B. max. 10 Zimmer verfügbar"
+
+#: backend/seasons-calendars.php:472 backend/seasons-calendars.php:733
+#: backend/seasons-calendars.php:760
+msgid "Max. Persons"
+msgstr "Max. Personenanzahl"
+
+#: backend/seasons-calendars.php:474 backend/seasons-calendars.php:762
+msgid "eg. max. 5 persons in one room"
+msgstr "z.B. max. 5 Personen in einem Zimmer"
+
+#: backend/seasons-calendars.php:477 backend/seasons-calendars.php:734
+#: backend/seasons-calendars.php:765
+msgid "Price Preset"
+msgstr "Standardpreis"
+
+#: backend/seasons-calendars.php:479 backend/seasons-calendars.php:767
+msgid ""
+"If no season is active, the price preset will be used for price calculations"
+msgstr ""
+"Wenn keine Saison aktiviert ist, wird der Standardpreis für die "
+"Preisberechnung verwendet"
+
+#: backend/seasons-calendars.php:482 backend/seasons-calendars.php:770
+msgid "Minimum Stay Preset"
+msgstr "Standard-Mindestaufenthalt"
+
+#: backend/seasons-calendars.php:484 backend/seasons-calendars.php:772
+msgid ""
+"Select the minimum number of nights a guest has to stay. You can also set "
+"different values for different seasons."
+msgstr ""
+"Gib dir Anzahl der Nächte ein, die ein Gast mindestens bleiben muss. Der "
+"Wert kann auch über verschiedene Saisons variieren."
+
+#: backend/seasons-calendars.php:487 backend/seasons-calendars.php:775
+msgid "Threshold for \"partly booked\""
+msgstr "Schwelle für \"teilw. gebucht\""
+
+#: backend/seasons-calendars.php:489 backend/seasons-calendars.php:777
+msgid ""
+"The number of rooms after which days in the calendars will be marked as "
+"\"partly booked\". Example: 3 rooms, partly booked is set to 2. Partly "
+"booked will be shown when two rooms are booked."
+msgstr ""
+"Die Anzahl der Zimmer die gebucht sein müssen, bevor \"teilw. gebucht\" "
+"angezeigt wird. Beispiel: 3 Zimmer, teilw. gebucht auf 2 eingestellt. Teilw. "
+"gebucht wird angezeigt, sobald zwei Zimmer gebucht wurden."
+
+#: backend/seasons-calendars.php:492 backend/seasons-calendars.php:780
+msgid "Information Page"
+msgstr "Informationsseite"
+
+#: backend/seasons-calendars.php:493 backend/seasons-calendars.php:781
+#: backend/settings.php:295
+msgid "Manage Pages"
+msgstr "Seiten verwalten"
+
+#: backend/seasons-calendars.php:494 backend/seasons-calendars.php:782
+msgid "You can link to an existing Page for further information."
+msgstr "Du kannst eine bestehende Seite für weitere Informationen verlinken."
+
+#: backend/seasons-calendars.php:497 backend/seasons-calendars.php:785
+msgid "Short information text"
+msgstr "Kurzer Beschreibungstext"
+
+#: backend/seasons-calendars.php:498 backend/seasons-calendars.php:786
+msgid "Nice Apartment with sea view..."
+msgstr "Schönes Apartment mit Seeblick"
+
+#: backend/seasons-calendars.php:498 backend/seasons-calendars.php:786
+msgid "Maximum 200 chars"
+msgstr "Maximal 200 Zeichen"
+
+#: backend/seasons-calendars.php:520
+msgid "Edit existing Season"
+msgstr "Bestehende Saison bearbeiten"
+
+#: backend/seasons-calendars.php:534 backend/seasons-calendars.php:848
+msgid "The currency code will be attached automatically."
+msgstr "Das Währungssymbol wird automatisch hinzugefügt."
+
+#: backend/seasons-calendars.php:537 backend/seasons-calendars.php:829
+#: backend/seasons-calendars.php:851
+msgid "Minimum Stay"
+msgstr "Mindestaufenthalt"
+
+#: backend/seasons-calendars.php:539 backend/seasons-calendars.php:853
+msgid ""
+"Enter the number of nights a guest has to stay. Bookings below this number "
+"of nights will not be accepted."
+msgstr ""
+"Gib die Anzahl der Nächte ein, die ein Gast mindestens bleiben muss. "
+"Buchungen unterhalb dieser Grenze sind dann nicht möglich."
+
+#: backend/seasons-calendars.php:583 backend/seasons-calendars.php:877
+#: backend/seasons-calendars.php:906
+#, php-format
+msgid "%d night minimum stay"
+msgid_plural "%d nights minimum stay"
+msgstr[0] "eine Nacht Mindestaufenthalt"
+msgstr[1] "%d Nächte Mindestaufenthalt"
+
+#: backend/seasons-calendars.php:591
+msgid "Edit existing Assignment"
+msgstr "Bestehende Verknüpfung bearbeiten"
+
+#: backend/seasons-calendars.php:602 backend/seasons-calendars.php:927
+#: backend/seasons-calendars.php:944
+msgid "Season"
+msgstr "Saison"
+
+#: backend/seasons-calendars.php:606 backend/seasons-calendars.php:948
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: backend/seasons-calendars.php:610 backend/seasons-calendars.php:952
+msgid "End Date"
+msgstr "Enddatum"
+
+#: backend/seasons-calendars.php:635
+#, php-format
+msgid "Edit room names for calendar \"%s\""
+msgstr "Zimmernamen für Kalender \"%s\" bearbeiten"
+
+#: backend/seasons-calendars.php:644
+#, php-format
+msgid "Name for room %d"
+msgstr "Name für Zimmer %d"
+
+#: backend/seasons-calendars.php:667
+msgid "Calendars"
+msgstr "Kalender"
+
+#: backend/seasons-calendars.php:668
+msgid "Seasons"
+msgstr "Saisons"
+
+#: backend/seasons-calendars.php:669
+msgid "Season - Calendar - Assignments"
+msgstr "Saison - Kalender - Verknüpfung"
+
+#: backend/seasons-calendars.php:693
+msgid "No Page selected"
+msgstr "Keine Seite ausgewählt"
+
+#: backend/seasons-calendars.php:715
+msgid "Do you really want to delete this calendar?"
+msgstr "Möchtest du diesen Kalender wirklich löschen?"
+
+#: backend/seasons-calendars.php:721
+msgid "Room Names"
+msgstr "Zimmernamen"
+
+#: backend/seasons-calendars.php:728
+msgid "Existing Calendars"
+msgstr "Bestehende Kalender"
+
+#: backend/seasons-calendars.php:735
+msgid "Min. Stay Preset"
+msgstr "Standard Min.-Aufenthalt"
+
+#: backend/seasons-calendars.php:736
+msgid "Info Page"
+msgstr "Infoseite"
+
+#: backend/seasons-calendars.php:737
+msgid "Info Text"
+msgstr "Beschreibungstext"
+
+#: backend/seasons-calendars.php:738
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: backend/seasons-calendars.php:744
+msgid "Add new Calendar"
+msgstr "Neuen Kalender hinzufügen"
+
+#: backend/seasons-calendars.php:781
+msgid "Don't link"
+msgstr "Keine Verlinkung"
+
+#: backend/seasons-calendars.php:790
+msgid "Add Calendar"
+msgstr "Kalender hinzufügen"
+
+#: backend/seasons-calendars.php:817
+msgid "Do you really want to delete this Season?"
+msgstr "Möchtest du diese Saison wirklich löschen?"
+
+#: backend/seasons-calendars.php:824
+msgid "Existing Seasons"
+msgstr "Bestehende Saisons"
+
+#: backend/seasons-calendars.php:835
+msgid "Add new Season"
+msgstr "Neue Saison hinzufügen"
+
+#: backend/seasons-calendars.php:842
+msgid "Summer High Price"
+msgstr "Sommer Hauptsaison"
+
+#: backend/seasons-calendars.php:857
+msgid "Add Season"
+msgstr "Saison hinzufügen"
+
+#: backend/seasons-calendars.php:916
+msgid "Do you really want to delete this Season Assignment?"
+msgstr "Möchtest du diese Saison-Verknüpfung wirklich löschen?"
+
+#: backend/seasons-calendars.php:923
+msgid "Existing Assignments"
+msgstr "Bestehende Verknüpfungen"
+
+#: backend/seasons-calendars.php:928
+msgid "Date"
+msgstr "Datum"
+
+#: backend/seasons-calendars.php:934
+msgid "Add new Assignment"
+msgstr "Neue Verknüpfung hinzufügen"
+
+#: backend/seasons-calendars.php:958
+msgid "Add Assignment"
+msgstr "Verknüpfung hinzufügen"
+
+#: backend/settings.php:238
+msgid "Email settings have been saved."
+msgstr "E-Mail-Einstellungen wurden gespeichert."
+
+#: backend/settings.php:243
+msgid "General settings have been saved."
+msgstr "Haupteinstellungen wurden gespeichert."
+
+#: backend/settings.php:248
+msgid ""
+"Booking form settings have been saved. Please make sure to update the email "
+"templates as well."
+msgstr ""
+"Buchungsformular-Einstellungen wurden gespeichert. Bitte prüfe, ob die E-"
+"Mail Templates aktualisiert werden müssen."
+
+#: backend/settings.php:260
+msgid "General Settings"
+msgstr "Haupteinstellungen"
+
+#: backend/settings.php:261
+msgid "Booking Form Settings"
+msgstr "Buchungsformular-Einstellungen"
+
+#: backend/settings.php:271
+msgid "This Email Address will receive all booking requests"
+msgstr "Diese E-Mail-Adresse wird alle Buchungsanfragen erhalten."
+
+#: backend/settings.php:274
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: backend/settings.php:277
+msgid ""
+"Yes, I want to get vital informations on how to raise my occupation rate and "
+"stay tuned about Advanced Booking Calendar"
+msgstr ""
+"Ja, ich möchte wichtige Informationen zur Steigerung meiner Buchungsrate "
+"erhalten und über den Advanced Booking Calendar auf dem Laufenden bleiben."
+
+#: backend/settings.php:278
+msgid "No, disable the newsletter"
+msgstr "Nein, Newsletter deaktivieren"
+
+#: backend/settings.php:280
+msgid ""
+"You will receive regular tips on how to create great Hotel websites and "
+"informations about this plugin. We promise to never spam you. You can "
+"unsubscribe anytime."
+msgstr ""
+"Du erhälst regelmäßig Tips, wie man eine Hotel-Webseite aufbaut und weitere "
+"Informationen zu diesem Plugin. Wir verpsrechen dir keinen Spam zu schicken. "
+"Du kannst dich jederzeit abmelden."
+
+#: backend/settings.php:284
+msgid "Page with booking form"
+msgstr "Seite mit dem Buchungsformular"
+
+#: backend/settings.php:289
+msgid "Not selected"
+msgstr "Nicht ausgewählt"
+
+#: backend/settings.php:296
+msgid ""
+"Select the page which uses the booking form shortcode. You have to add the "
+"shortcode [abc-bookingform] manually to this page. The page will be linked, "
+"if user selects dates on the single calendar shortcode."
+msgstr ""
+"Wähle die Seite aus, auf der der Shortcode zum Buchungsformular eingebunden "
+"ist. Du musst den Shortcode [abc-bookingform] auf der Seite manuell "
+"hinzufügen. Diese Seite wird angesteuert, wenn ein Nutzer im Einzelkalender "
+"ein Datum auswählt."
+
+#: backend/settings.php:299
+msgid "Currency"
+msgstr "Währungssymbol"
+
+#: backend/settings.php:301
+msgid "Example: &euro; or $"
+msgstr "Beispiel: &euro; oder $"
+
+#: backend/settings.php:304
+msgid "Price format"
+msgstr "Preisformat"
+
+#: backend/settings.php:312
+msgid "Date format"
+msgstr "Datumsformat"
+
+#: backend/settings.php:321
+msgid "Position of currency sign"
+msgstr "Position des Währungssymbols"
+
+#: backend/settings.php:325
+msgid "Before the amount"
+msgstr "Vor dem Betrag"
+
+#: backend/settings.php:327
+msgid "After the amount"
+msgstr "Hinter dem Betrag"
+
+#: backend/settings.php:332
+msgid "Cookies"
+msgstr "Cookies"
+
+#: backend/settings.php:335 backend/settings.php:345 backend/settings.php:356
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: backend/settings.php:336 backend/settings.php:346 backend/settings.php:357
+#: backend/settings.php:377 backend/settings.php:387 backend/settings.php:397
+#: backend/settings.php:407 backend/settings.php:417 backend/settings.php:427
+#: backend/settings.php:437 backend/settings.php:447 backend/settings.php:457
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: backend/settings.php:338
+msgid ""
+"If cookies are enabled, customer date inputs are saved in a cookie (no "
+"personal data is stored in the cookie)."
+msgstr ""
+"Wenn Cookies aktiviert sind, werden die Datumsangeben des Kunden in einem "
+"Cookie gespeichert (es werden keine persönlichen Daten in dem Cookie "
+"gespeichert),"
+
+#: backend/settings.php:348
+msgid ""
+"If enabled, user interactions with calendars and forms will be tracked in "
+"your Google Universal Analytics. Please configure Universal Analytics "
+"seperately. We recommend using the following plugin:"
+msgstr ""
+"Wenn diese Einstellung aktiviert wird, werden NutzerInteraktionen mit "
+"Kalendern und dem Formular in deinem Google Universal Analytics Account "
+"getracked. Dazu muss der Universal Analytics Account seperat aktiviert "
+"werden. Wir empfehlen dafür folgendes Plugin:"
+
+#: backend/settings.php:353
+msgid "Powered-by-Link"
+msgstr "Erstellt-mit-Link"
+
+#: backend/settings.php:359
+msgid ""
+"If link is enabled, a tiny \"powered by Advanced Booking Calendar\"-link "
+"will show up below the calendar overview."
+msgstr ""
+"Wenn dieser Link aktiviert ist, erscheint ein winziger \"Erstellt mit "
+"Advanced Booking Calendar\"-Hinweis unterhalb der Kalenderübersicht."
+
+#: backend/settings.php:368
+msgid "Booking Form Inputs"
+msgstr "Eingaben im Buchungsformular"
+
+#: backend/settings.php:375 backend/settings.php:385 backend/settings.php:395
+#: backend/settings.php:405 backend/settings.php:415 backend/settings.php:425
+#: backend/settings.php:435 backend/settings.php:445 backend/settings.php:455
+msgid "Required"
+msgstr "Pflichtfeld"
+
+#: backend/settings.php:376 backend/settings.php:386 backend/settings.php:396
+#: backend/settings.php:406 backend/settings.php:416 backend/settings.php:426
+#: backend/settings.php:436 backend/settings.php:446 backend/settings.php:456
+msgid "Optional"
+msgstr "Optional"
+
+#: backend/settings.php:467
+msgid "Placeholders"
+msgstr "Platzhalter"
+
+#: backend/settings.php:468
+msgid ""
+"You can use the following placeholder in both subject and text. They will be "
+"replaced with the actual content when the email is send to the guest:"
+msgstr ""
+"Du kannst die folgenden Platzhalter im Betreff und Text verwenden. Beim "
+"Versenden werden diese durch die echten Inhalte ersetzt."
+
+#: backend/settings.php:473
+msgid "Templates"
+msgstr "Templates"
+
+#: backend/settings.php:474
+msgid "Unconfirmed Booking"
+msgstr "Unbestätige Buchung"
+
+#: backend/settings.php:476
+msgid "Subject for an unconfirmed booking mail"
+msgstr "Betreff für eine unbestätigte Buchungs-E-Mail"
+
+#: backend/settings.php:482
+msgid "Text for an unconfirmed booking mail"
+msgstr "Text für eine unbestätigte Buchungs-E-Mail"
+
+#: backend/settings.php:487
+msgid "Confirming an open Booking"
+msgstr "Bestätigung einer offenen Buchung"
+
+#: backend/settings.php:489
+msgid "Subject for a booking confirmation mail"
+msgstr "Betreff für eine Buchungsbestätigungs-E-Mail"
+
+#: backend/settings.php:495
+msgid "Text for a booking confirmation mail"
+msgstr "Text für eine Buchungsbestätigungs-E-Mail"
+
+#: backend/settings.php:499
+msgid "Canceling a confirmed Booking"
+msgstr "Ablehnung einer bestätigten Buchung"
+
+#: backend/settings.php:502
+msgid "Subject for a cancelation mail"
+msgstr "Betreff einer Ablehnungs-E-Mail"
+
+#: backend/settings.php:508
+msgid "Text for a cancelation mail"
+msgstr "Text einer Ablehnungs-E-Mail"
+
+#: backend/settings.php:513
+msgid "Rejecting an open Booking"
+msgstr "Stornierung einer Buchung"
+
+#: backend/settings.php:515
+msgid "Subject for a rejection mail"
+msgstr "Betreff einer Stornierungs-E-Mail"
+
+#: backend/settings.php:521
+msgid "Text for a rejection mail"
+msgstr "Text einer Stornierungs-E-Mail"
+
+#: frontend/bookingform.php:81 frontend/bookingform.php:109
+#: frontend/singlecalendar.php:41
+msgid "Loading..."
+msgstr "Lade..."
+
+#: frontend/bookingform.php:109 widget.php:132
+msgid "Check availabilities"
+msgstr "Verfügbarkeiten prüfen"
+
+#: frontend/bookingform.php:169 frontend/singlecalendar.php:336
+#, php-format
+msgid "Your stay is too short. Minimum stay for those dates is %d nights."
+msgstr ""
+"Der Zeitraum ist zu kurz. Mindestaufenhalt für dieses Datum sind %d Nächte."
+
+#: frontend/bookingform.php:171
+msgid "average"
+msgstr "Durchschnitt"
+
+#: frontend/bookingform.php:175
+msgid "Select room"
+msgstr "Zimmer auswählen"
+
+#: frontend/bookingform.php:183
+msgid "Available rooms for your stay"
+msgstr "Verfügbare Zimmer für den Aufenthalt"
+
+#: frontend/bookingform.php:186
+msgid "No rooms available for your search request."
+msgstr "Keine verfügbaren Zimmer für diese Anfrage."
+
+#: frontend/bookingform.php:231
+msgid "Optional extra"
+msgid_plural "Optional extras"
+msgstr[0] "Optionale Zusatzleistung"
+msgstr[1] "Optionale Zusatzleistungen"
+
+#: frontend/bookingform.php:254
+msgid "Continue"
+msgstr "Weiter"
+
+#: frontend/bookingform.php:303
+msgid "Selected extra"
+msgid_plural "Selected extras"
+msgstr[0] "Ausgewählte Zusatzleistung"
+msgstr[1] "Ausgewählte Zusatzleistungen"
+
+#: frontend/bookingform.php:307
+msgid "Costs for the extras"
+msgstr "Kosten durch Zusatzleistungen"
+
+#: frontend/bookingform.php:313
+msgid "Price for the room"
+msgstr "Zimmerpreis"
+
+#: frontend/bookingform.php:387
+msgid "Your stay"
+msgstr "Ihr Aufenthalt"
+
+#: frontend/bookingform.php:392
+msgid "Total Price"
+msgstr "Gesamtpreis"
+
+#: frontend/bookingform.php:398 frontend/singlecalendar.php:342
+msgid "Book now"
+msgstr "Jetzt buchen"
+
+#: frontend/bookingform.php:500
+msgid "Thank you for your booking request!"
+msgstr "Vielen Dank für Ihre Buchungsanfrage!"
+
+#: frontend/bookingform.php:501
+msgid "We have sent you an email including a summary of your booking!"
+msgstr ""
+"Wir haben Ihnen eine E-Mail mit einer Zusammenfassung Ihrer Buchung "
+"geschickt!"
+
+#: frontend/bookingform.php:506
+msgid ""
+"Something went wrong, your booking could not be completed. Please try again."
+msgstr ""
+"Hier lief etwas schief, Ihre Buchung konnte nicht abgeschlossen werden. "
+"Bitte versuchen Sie es später noch einmal."
+
+#: frontend/calendaroverview.php:132 frontend/calendaroverview.php:190
+#: frontend/singlecalendar.php:55
+msgid "Available"
+msgstr "Verfügbar"
+
+#: frontend/calendaroverview.php:135 frontend/calendaroverview.php:192
+#: frontend/singlecalendar.php:57
+msgid "Partly booked"
+msgstr "Teilw. gebucht"
+
+#: frontend/calendaroverview.php:138 frontend/calendaroverview.php:194
+#: frontend/singlecalendar.php:59
+msgid "Fully booked"
+msgstr "Ausgebucht"
+
+#: frontend/calendaroverview.php:209
+msgid "Powered by:"
+msgstr "Erstellt mit:"
+
+#: frontend/singlecalendar.php:18 frontend/singlecalendar.php:32
+msgid "Su"
+msgstr "So"
+
+#: frontend/singlecalendar.php:19 frontend/singlecalendar.php:26
+msgid "Mo"
+msgstr "Mo"
+
+#: frontend/singlecalendar.php:20 frontend/singlecalendar.php:27
+msgid "Tu"
+msgstr "Di"
+
+#: frontend/singlecalendar.php:21 frontend/singlecalendar.php:28
+msgid "We"
+msgstr "Mi"
+
+#: frontend/singlecalendar.php:22 frontend/singlecalendar.php:29
+msgid "Th"
+msgstr "Do"
+
+#: frontend/singlecalendar.php:23 frontend/singlecalendar.php:30
+msgid "Fr"
+msgstr "Fr"
+
+#: frontend/singlecalendar.php:24 frontend/singlecalendar.php:31
+msgid "Sa"
+msgstr "Sa"
+
+#: functions.php:379
+msgid "No optional extras."
+msgstr "Keine optionale Zusatzleistungen."
+
+#: functions.php:382
+msgid "No mandatory extras."
+msgstr "Keine verpflichtenden Zusatzleistungen"
+
+#: functions.php:489 functions.php:611
+msgid "New Booking Request"
+msgstr "Neue Buchungsanfrage"
+
+#: functions.php:816
+#, php-format
+msgid "%s for each of the %d nights"
+msgstr "%s für jede der %d Nächte"
+
+#: functions.php:822
+#, php-format
+msgid "%s for each of the %d days"
+msgstr "%s für jeden der %d Tage"
+
+#: functions.php:827
+#, php-format
+msgid "%s paid once"
+msgstr "einmalig %s"
+
+#: functions.php:832
+#, php-format
+msgid "%s for each of the %d persons"
+msgstr "%s für jede der %d Personen"
+
+#: functions.php:838
+#, php-format
+msgid "%s for each of the %d persons and %d nights"
+msgstr "%s für jede der %d Personen und %d Nächte"
+
+#: functions.php:844
+#, php-format
+msgid "%s for each of the %d persons and %d days"
+msgstr "%s für jede der %d Personen und %d Tage"
+
+#: widget.php:9
+msgid "Advanced Booking Calendar Widget."
+msgstr "Advanced Booking Calendar Widget."
+
+#: widget.php:11
+msgid "Availability Form Widget"
+msgstr "Verfügbarkeits-Check Widget"
+
+#: widget.php:23
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+#: widget.php:26
+msgid "Title:"
+msgstr "Titel:"
+
+#: widget.php:31
+msgid ""
+"This widgets loads a small booking form. After a user selected the dates and "
+"clicked on \"Check availabilites\", the booking form is loaded."
+msgstr ""
+"Dieses Widget lädt ein kleines Buchungsformular. Nachdem der Nutzer die "
+"Reisedaten ausgewählt und auf \"Verfügbarkeit prüfen\" geklickt hat, lädt "
+"das Buchungsformular."
+
+#: widget.php:33
+msgid ""
+"There is no booking page configured. Check the settings and select a page "
+"with the booking form."
+msgstr ""
+"Die Buchungsseite ist nicht konfiguriert. Prüfe die Einstellungen wähle eine "
+"Seite mit dem Buchungsformular aus."
+
+#: widget.php:140
+msgid ""
+"There is no booking page configured. Check the settings of the Advanced "
+"Booking Calendar."
+msgstr ""
+"Die Buchungsseite ist nicht konfiguriert. Prüfe die Advanced Booking "
+"Calendar Einstellungen."
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Advanced Booking Calendar"
+msgstr "Advanced Booking Calendar"
+
+#. Plugin URI of the plugin/theme
+msgid "https://booking-calendar-plugin.com/"
+msgstr "https://booking-calendar-plugin.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"The Booking System that makes managing your online reservations easy. A "
+"great Booking Calendar plugin for Accommodations."
+msgstr ""
+"Das Buchungssystem, dass das Verwalten deiner Online-Reservierungen "
+"vereinfacht. Ein großartiger Buchungskalender für Hotels und Co."
+
+#. Author URI of the plugin/theme
+msgid "https://booking-calendar-plugin.com"
+msgstr "https://booking-calendar-plugin.com"
+
+#~ msgid "Total price for stay"
+#~ msgstr "Gesamtpreis für den Aufenthalt"
+
+#~ msgid ""
+#~ "There is in overlap in the bookings. Check if you can move other bookings "
+#~ "to other rooms. The booking can only be saved as \"open\""
+#~ msgstr ""
+#~ "Es gibt eine Überschneidung bei den Buchung. Prüfe, ob du die Buchungen "
+#~ "auf andere Zimmer verlegen kannst. Diese Buchung kann nur als \"offen\" "
+#~ "gespeichert werden"
+
+#~ msgid "Party booked"
+#~ msgstr "Teilw. gebucht"
+
+#~ msgid ""
+#~ "The easy way to manage your bookings and raise your occupancy rate. This "
+#~ "plugin is made for modern Hoteliers who want to get hold of their online "
+#~ "reservations."
+#~ msgstr ""
+#~ "Der einfache Weg der Buchungsverwaltung und zur Steigerung der "
+#~ "Belegungsrate. Dieses Plugin wurde für moderne Hoteliers gemacht, die "
+#~ "volle Kontrolle über Ihre Online-Reservierungen haben möchte."
+
+#~ msgid "My Calendar"
+#~ msgstr "Mein Kalender"
