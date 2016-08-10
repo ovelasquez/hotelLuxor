@@ -170,7 +170,7 @@ add_action( 'widgets_init', 'travel_eye_widgets_init' );
  */
 function travel_eye_scripts() {
 
-	$min = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+	$min = defined('SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/third-party/font-awesome/css/font-awesome' . $min . '.css', '', '4.6.1' );
 

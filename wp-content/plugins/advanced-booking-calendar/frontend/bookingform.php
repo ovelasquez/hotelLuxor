@@ -106,7 +106,7 @@ function abc_booking_showBookingForm( $atts ) {
 				</form>	
 			</div>
 			<div class="abc-form-row">
-				<button class="abc-submit" id="abc-check-availabilities"><span id="abc-submit-button" class="abc-submit-text">'.__('Check availabilities', 'advanced-booking-calendar').'</span><span class="abc-submit-loading" />'.__('Loading...', 'advanced-booking-calendar').'</span></button>
+				<button class="abc-submit" id="abc-check-availabilities"><span id="abc-submit-button" class="abc-submit-text">'.__('Ver disponibilidad', 'advanced-booking-calendar').'</span><span class="abc-submit-loading" />'.__('Loading...', 'advanced-booking-calendar').'</span></button>
 				<button class="abc-submit" id="abc-back-to-availabilities" style="display: none;"><span class="abc-submit-text">'.__('Edit', 'advanced-booking-calendar').'</span></button>
 			</div>	
 			
@@ -166,13 +166,13 @@ function ajax_abc_booking_getBookingResult () {
 						<br/><span>'.esc_html($row["infoText"]).'<br/>';
 				$minimumStay = abc_booking_checkMinimumStay($row["id"], $normFromValue, $normToValue);		
 				if($minimumStay > 0){
-					$availableRooms .= '<b>'.sprintf( __('Your stay is too short. Minimum stay for those dates is %d nights.', 'advanced-booking-calendar'), $minimumStay ).'</b>';					
+					$availableRooms .= '<b>'.sprintf( __('Su estancia es demasiado corta. La estancia mínima para esas fechas es de %d noches.', 'advanced-booking-calendar'), $minimumStay ).'</b>';					
 				}else {
-					$availableRooms .= __('Total price', 'advanced-booking-calendar').': '.abc_booking_formatPrice($totalSum).', '.__('average', 'advanced-booking-calendar').': '.abc_booking_formatPrice(number_format(($totalSum/$numberOfDays), 2, $priceformat, '')).'
+					$availableRooms .= __('Precio Total', 'advanced-booking-calendar').': '.abc_booking_formatPrice($totalSum).', '.__('average', 'advanced-booking-calendar').': '.abc_booking_formatPrice(number_format(($totalSum/$numberOfDays), 2, $priceformat, '')).'
 							<form action="'.get_permalink().'" method="post">
 								<div data-persons="'.$abcPersons.'" data-from="'.$abcFromValue.'" data-to="'.$abcToValue.'" data-calendar="'.$row["id"].'" class="abc-bookingform-book abc-submit">
 									<span class="fa fa-chevron-right"></span>
-									<span>'.__('Select room', 'advanced-booking-calendar').'</span>
+									<span>'.__('Seleccionar habitación', 'advanced-booking-calendar').'</span>
 								</div>
 							</form>';
 				}
@@ -180,10 +180,10 @@ function ajax_abc_booking_getBookingResult () {
 			}
 		}
 		if ($isSuccessful){
-			$getBookingResultReturn .= '<span class="abc-result-header">'.__('Available rooms for your stay', 'advanced-booking-calendar').':</span>'.$availableRooms;	 
+			$getBookingResultReturn .= '<span class="abc-result-header">'.__('Habitaciones disponibles para su estancia', 'advanced-booking-calendar').':</span>'.$availableRooms;	 
 			$getBookingResultReturn .= abc_booking_setPageview('bookingform/rooms-available'); // Google Analytics Tracking 
 		}else {
-			$getBookingResultReturn .='<span class="abc-result-header">'.__('No rooms available for your search request.', 'advanced-booking-calendar').'</span>';
+			$getBookingResultReturn .='<span class="abc-result-header">'.__('No hay habitaciones disponibles para su solicitud de búsqueda', 'advanced-booking-calendar').'</span>';
 			$getBookingResultReturn .= abc_booking_setPageview('bookingform/rooms-unavailable'); // Google Analytics Tracking
 		}	
 		//Saving inputs for tracking
@@ -196,7 +196,7 @@ function ajax_abc_booking_getBookingResult () {
 		//Returning output
 		echo $getBookingResultReturn;
 	} else {
-		echo __('Something went wrong.', 'advanced-booking-calendar');
+		echo __('Algo salió mal.', 'advanced-booking-calendar');
 	}	
 	die();
 }
@@ -289,7 +289,7 @@ function ajax_abc_booking_getBookingFormStep2 () {
 			if(strlen($extrasMandatory) > 1){
 				$extrasOutput .= '<div class="abc-form-row">
 								<div class="abc-column">
-									<span class="abc-result-header">'.__('Additional costs', 'advanced-booking-calendar').'</span>
+									<span class="abc-result-header">'.__('Costos Adicionales', 'advanced-booking-calendar').'</span>
 								</div>
 							</div>
 							<div class="abc-form-row">
@@ -321,41 +321,41 @@ function ajax_abc_booking_getBookingFormStep2 () {
 			$bookingFormColumn = ceil(($bookingFormSetting["inputs"]+1)/2);
 			$rowCount = 0;
 			if($bookingFormSetting["firstname"] > 0){
-				$bookingFormOutput .= '<label for="first_name">'.__('First Name', 'advanced-booking-calendar').'</label><br />
+				$bookingFormOutput .= '<label for="first_name">'.__('Nombre', 'advanced-booking-calendar').'</label><br />
 						<input type="text" id="first_name" name="first_name"><br />';
 				$rowCount++;
 			}	
 			if($rowCount == $bookingFormColumn){$bookingFormOutput .= '	</div><div class="abc-column">';}
 			if($bookingFormSetting["lastname"] > 0){
-				$bookingFormOutput .= '<label for="last_name">'.__('Last Name', 'advanced-booking-calendar').'</label><br />
+				$bookingFormOutput .= '<label for="last_name">'.__('Apellido', 'advanced-booking-calendar').'</label><br />
 						<input type="text" id="last_name" name="last_name"><br />';
 				$rowCount++;
 			}	
 			if($rowCount == $bookingFormColumn){$bookingFormOutput .= '	</div><div class="abc-column">';}
-			$bookingFormOutput .= '<label for="email">'.__('Email Address', 'advanced-booking-calendar').'</label><br />
+			$bookingFormOutput .= '<label for="email">'.__('Email', 'advanced-booking-calendar').'</label><br />
 						<input type="text" id="email" name="email"><br />';
 			$rowCount++;
 			if($rowCount == $bookingFormColumn){$bookingFormOutput .= '	</div><div class="abc-column">';}
 			if($bookingFormSetting["phone"] > 0){
-				$bookingFormOutput .= '<label for="phone">'.__('Phone Number', 'advanced-booking-calendar').'</label><br />
+				$bookingFormOutput .= '<label for="phone">'.__('Número de Teléfono', 'advanced-booking-calendar').'</label><br />
 						<input type="text" id="phone" name="phone"><br />';
 				$rowCount++;
 			}	
 			if($rowCount == $bookingFormColumn){$bookingFormOutput .= '	</div><div class="abc-column">';}
 			if($bookingFormSetting["street"] > 0){
-				$bookingFormOutput .= '<label for="address">'.__('Street Address, House no.', 'advanced-booking-calendar').'</label><br />
+				$bookingFormOutput .= '<label for="address">'.__('Dirección.', 'advanced-booking-calendar').'</label><br />
 						<input type="text" id="address" name="address"><br />';
 				$rowCount++;
 			}	
 			if($rowCount == $bookingFormColumn){$bookingFormOutput .= '	</div><div class="abc-column">';}
 			if($bookingFormSetting["zip"] > 0){
-				$bookingFormOutput .= '<label for="zip">'.__('ZIP Code', 'advanced-booking-calendar').'</label><br />
+				$bookingFormOutput .= '<label for="zip">'.__('Código Postal', 'advanced-booking-calendar').'</label><br />
 						<input type="text" id="zip" name="zip"><br />';
 				$rowCount++;
 			}	
 			if($rowCount == $bookingFormColumn){$bookingFormOutput .= '	</div><div class="abc-column">';}
 			if($bookingFormSetting["city"] > 0){
-				$bookingFormOutput .= '<label for="city">'.__('City', 'advanced-booking-calendar').'</label><br />
+				$bookingFormOutput .= '<label for="city">'.__('Ciudad', 'advanced-booking-calendar').'</label><br />
 						<input type="text" id="city" name="city"><br />';
 				$rowCount++;
 			}	
@@ -367,35 +367,36 @@ function ajax_abc_booking_getBookingFormStep2 () {
 			}	
 			if($rowCount == $bookingFormColumn){$bookingFormOutput .= '	</div><div class="abc-column">';}
 			if($bookingFormSetting["country"] > 0){
-				$bookingFormOutput .= '<label for="country">'.__('Country', 'advanced-booking-calendar').'</label><br />
+				$bookingFormOutput .= '<label for="country">'.__('País', 'advanced-booking-calendar').'</label><br />
 						<input type="text" id="country" name="country"><br />';
 				$rowCount++;
 			}	
 			if($rowCount == $bookingFormColumn){$bookingFormOutput .= '	</div><div class="abc-column">';}
 			if($bookingFormSetting["country"] > 0){
-				$bookingFormOutput .= '<label for="message">'.__('Message', 'advanced-booking-calendar').'</label><br />
+				$bookingFormOutput .= '<label for="message">'.__('Mensaje', 'advanced-booking-calendar').'</label><br />
 						<textarea id="message" name="message"></textarea>';
 				$rowCount++;
 			}
 			$bookingFormOutput .= '</div>
 					<div class="abc-clearfix">
 						<hr class="abc-form-hr" />
+                                                </br>
 					</div>
 					'.$extrasOutput.'
 					<div class="abc-fullcolumn">
 						<span>
-							<b>'.__('Your stay', 'advanced-booking-calendar').':</b><br/>
+							<b>'.__('Su estadía', 'advanced-booking-calendar').':</b><br/></br>
 							'.__('Checkin', 'advanced-booking-calendar').': '.$abcFromValue.'<br/>
 							'.__('Checkout', 'advanced-booking-calendar').': '.$abcToValue.'<br/>
-							'.__('Room type', 'advanced-booking-calendar').': '.$calendarName.'<br/>
+							'.__('Tipo de Habitación', 'advanced-booking-calendar').': '.$calendarName.'<br/>
 							'.$extrasOptional.$priceOutput.'
-							<b>'.__('Total Price', 'advanced-booking-calendar').': '.abc_booking_formatPrice($totalPrice).'</b><br/>
+							<b>'.__('Precio Total', 'advanced-booking-calendar').': '.abc_booking_formatPrice($totalPrice).'</b><br/>
 						</span>
 					</div>
 					<div class="abc-form-row">
 						<button class="abc-submit" id="abc-bookingform-book-submit" data-persons="'.$abcPersons.'" data-from="'.$abcFromValue.'" 
 							data-to="'.$abcToValue.'" data-calendar="'.$calendarId.'" data-extraslist="'.sanitize_text_field($_POST["extrasList"]).'">
-							'.__('Book now', 'advanced-booking-calendar').'
+							'.__('Reservar Ahora', 'advanced-booking-calendar').'
 						</button>	
 					</div>
 				</form>	
@@ -497,13 +498,13 @@ function ajax_abc_booking_getBookingFormBook () {
 		// Returning Thank-You-Page
 		$bookingFormOutput .= '
 				<div class="abc-form-row">
-					<span class="abc-result-header">'.__('Thank you for your booking request!', 'advanced-booking-calendar').'</span></br>
-					<span>'.__('We have sent you an email including a summary of your booking!', 'advanced-booking-calendar').'</span>
+					<span class="abc-result-header">'.__('Gracias por su solicitud de reserva !', 'advanced-booking-calendar').'</span></br>
+					<span>'.__('Te hemos enviado un correo electrónico que incluye un resumen de su reserva !', 'advanced-booking-calendar').'</span>
 				</div>';
 		$bookingFormOutput .= abc_booking_setPageview('bookingform/booking-successful'); // Google Analytics Tracking	
 		
 	} else {
-		$bookingFormOutput .= '<div class="abc-form-row">'.__('Something went wrong, your booking could not be completed. Please try again.', 'advanced-booking-calendar').'</div>';
+		$bookingFormOutput .= '<div class="abc-form-row">'.__('Algo salió mal, la reserva no se pudo completar. Por favor, inténtelo de nuevo .', 'advanced-booking-calendar').'</div>';
 		$bookingFormOutput .= abc_booking_setPageview('bookingform/booking-error'); // Google Analytics Tracking	
 	}
 	echo $bookingFormOutput;
