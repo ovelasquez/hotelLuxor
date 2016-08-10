@@ -51,7 +51,7 @@ function abc_booking_showSingleCalendar($atts) {
 					<div id="abc-calendar-days-' . $divId . '">
 						' . abc_booking_getSingleCalendar($atts) . '
 					</div>';
-            echo "XXXXXXXXXXXXXX".intval($atts['legend']);
+            
             if (isset($atts['legend']) && intval($atts['legend']) == 1) {
                 $calSingleOutput .= '<div class="abc-single-legend">
 											<span class="fa fa-square-o abc-single-legend-available"></span>
